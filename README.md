@@ -12,15 +12,3 @@ The app then classifies whether the tweet is positive, negative or neutral based
 • vaderSentiment</br>
 • textblob</br>
 • Flask==1.1.1</br></br>
-
-<h2>Homepage</h2>
-
-Add the username for the twitter account you want to get tweets from and enter the number of tweets to be displayed.
-
-<img src="images/homepage.JPG" alt="Homepage"/>
-
-<h2>Results</h2>
-
-The app then displays the desired number of tweets along with it's sentiment.
-
-<img src="images/results.JPG" alt="Homepage"/>
