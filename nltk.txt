@@ -2,3 +2,8 @@ stopwords
 vader_lexicon
 twitter_samples
 subjectivity
+TweetTokenizer
+PorterStemmer
+classify
+NaiveBayesClassifier
+SentimentAnalyzer
