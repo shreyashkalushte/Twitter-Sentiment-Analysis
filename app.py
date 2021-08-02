@@ -46,10 +46,10 @@ def predict():
 	number = int(number)
 	username = str(username)
 
-	consumer_key = '***********'
-	consumer_secret = '***********'
-	access_key = '***********'
-	access_secret = '***********'
+	consumer_key = 'bCebZhZcuRvF2k7QHSqY6RFJL'
+	consumer_secret = '1REBfOBLUxHSLtptvxFdfoisvXbybferbtp7RcasOIZBO0qdIg'
+	access_key = '1271351243097567235-Xbz5KoeHKAbygxdbmQ7k5y6ztUw0nV'
+	access_secret = '4W9LCUy95K98N8cLvHtTqiKzfV4HBh35jMC9jXh8UJoZS'
 
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_key, access_secret)
