@@ -95,7 +95,7 @@ def predict():
 		for words in clean_data:
 			if (words in UNICODE_EMOJI['en']):
 				dum=emoji.demojize(words) 
-				dum=dum.replace("_"," ")	# :winking_face: :water_wave: we are removing '_' between the words here
+				dum=dum.replace("_"," ")	# :winking_face: :water_wave: removing '_' between the words here
 				data=data.replace(words,dum)
 			X_final.append(words)
 
